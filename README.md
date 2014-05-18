@@ -47,6 +47,15 @@ Chainy.create().set("some data").log()  // "some data"
 - Use: `require('chainy-plugin-autoload')`
 - Install: `npm install --save chainy-plugin-autoload`
 
+### [Browserify](http://browserify.org/)
+- Use: `require('chainy-plugin-autoload')`
+- Install: `npm install --save chainy-plugin-autoload`
+- CDN URL: `//wzrd.in/bundle/chainy-plugin-autoload@0.1.1`
+
+### [Ender](http://ender.jit.su/)
+- Use: `require('chainy-plugin-autoload')`
+- Install: `ender add chainy-plugin-autoload`
+
 <!-- /INSTALL -->
 
 
@@ -89,8 +98,11 @@ No sponsors yet! Will you be the first?
 
 ### Contributors
 
-No contributors yet! Will you be the first?
-[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/chainy-plugins/chainy-plugin-autoload/blob/master/CONTRIBUTING.md#files)
+These amazing people have contributed code to this project:
+
+- [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/chainy-plugins/autoload/commits?author=balupton)
+
+[Become a contributor!](https://github.com/chainy-plugins/chainy-plugin-autoload/blob/master/CONTRIBUTING.md#files)
 
 <!-- /BACKERS -->
 

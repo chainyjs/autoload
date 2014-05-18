@@ -29,7 +29,9 @@
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
-  "contributors": [],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
   "bugs": {
     "url": "https://github.com/chainy-plugins/autoload/issues"
   },
@@ -58,5 +60,6 @@
   "scripts": {
     "test": "node ./test/autoload-test.js"
   },
-  "main": "./lib/autoload.js"
+  "main": "./lib/autoload.js",
+  "browsers": true
 }
