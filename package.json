@@ -1,0 +1,62 @@
+{
+  "title": "Autoload plugin for [ChainyJS](http://chainy.bevry.me)",
+  "name": "chainy-plugin-autoload",
+  "version": "0.1.1",
+  "description": "Chainy plugin that automatically loads all installed plugins into the chain",
+  "homepage": "https://github.com/chainy-plugins/autoload",
+  "keywords": [
+    "chainy-custom",
+    "chainy-plugin",
+    "chainy-extension",
+    "chainy-addon",
+    "chainy"
+  ],
+  "license": {
+    "type": "MIT"
+  },
+  "badges": {
+    "travis": true,
+    "npm": true,
+    "david": true,
+    "daviddev": true,
+    "gittip": "bevry",
+    "flattr": "344188/balupton-on-Flattr",
+    "paypal": "QB8GQPZAH84N6",
+    "bitcoin": "https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a",
+    "wishlist": "http://amzn.com/w/2F8TXKSNAFG4V"
+  },
+  "author": "2014+ Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "maintainers": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/chainy-plugins/autoload/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/chainy-plugins/autoload.git"
+  },
+  "engines": {
+    "node": ">=0.4"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "chainy-core": "*"
+  },
+  "devDependencies": {
+    "chainy-plugin-set": "*",
+    "chainy-core": "*",
+    "joe": "~1.4.0",
+    "joe-reporter-console": "~1.2.1",
+    "chai": "~1.9.1",
+    "projectz": "~0.3.11"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/autoload-test.js"
+  },
+  "main": "./lib/autoload.js"
+}
