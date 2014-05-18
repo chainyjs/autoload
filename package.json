@@ -1,7 +1,7 @@
 {
   "title": "Autoload plugin for [ChainyJS](http://chainy.bevry.me)",
   "name": "chainy-plugin-autoload",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Chainy plugin that automatically loads all installed plugins into the chain",
   "homepage": "https://github.com/chainy-plugins/autoload",
   "keywords": [
