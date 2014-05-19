@@ -50,7 +50,7 @@ Chainy.create().set("some data").log()  // "some data"
 ### [Browserify](http://browserify.org/)
 - Use: `require('chainy-plugin-autoload')`
 - Install: `npm install --save chainy-plugin-autoload`
-- CDN URL: `//wzrd.in/bundle/chainy-plugin-autoload@0.1.1`
+- CDN URL: `//wzrd.in/bundle/chainy-plugin-autoload@0.1.2`
 
 ### [Ender](http://ender.jit.su/)
 - Use: `require('chainy-plugin-autoload')`
