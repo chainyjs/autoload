@@ -31,9 +31,8 @@ Chainy plugin that automatically loads all installed plugins into the chain
 
 
 ``` javascript
-// chainy install set log
-var Chainy = require('chainy-core').subclass().require('autoload')
-Chainy.create().set("some data").log()  // "some data"
+require('chainy-core').create().require('autoload')
+	.set("some data").log()  // "some data"
 ```
 
 <!-- /CHAINY_DOCUMENTATION -->
