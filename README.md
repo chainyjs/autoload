@@ -1,7 +1,7 @@
 
 <!-- TITLE/ -->
 
-# Autoload plugin for [ChainyJS](http://chainy.bevry.me)
+# Autoload plugin for [ChainyJS](http://chainyjs.org)
 
 <!-- /TITLE -->
 
@@ -32,7 +32,9 @@ Chainy plugin that automatically loads all installed plugins into the chain
 
 ``` javascript
 require('chainy-core').create().require('autoload')
-	.set("some data").log()  // "some data"
+	// assumming the plugins below are already installed, we no longer need to require them manually
+	.set("some data")
+	.log()  // "some data"
 ```
 
 <!-- /CHAINY_DOCUMENTATION -->
@@ -49,7 +51,7 @@ require('chainy-core').create().require('autoload')
 ### [Browserify](http://browserify.org/)
 - Use: `require('chainy-plugin-autoload')`
 - Install: `npm install --save chainy-plugin-autoload`
-- CDN URL: `//wzrd.in/bundle/chainy-plugin-autoload@0.1.2`
+- CDN URL: `//wzrd.in/bundle/chainy-plugin-autoload@1.0.0`
 
 ### [Ender](http://ender.jit.su/)
 - Use: `require('chainy-plugin-autoload')`

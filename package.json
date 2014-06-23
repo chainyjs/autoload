@@ -1,7 +1,7 @@
 {
-  "title": "Autoload plugin for [ChainyJS](http://chainy.bevry.me)",
+  "title": "Autoload plugin for [ChainyJS](http://chainyjs.org)",
   "name": "chainy-plugin-autoload",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Chainy plugin that automatically loads all installed plugins into the chain",
   "homepage": "https://github.com/chainy-plugins/autoload",
   "keywords": [
@@ -44,11 +44,11 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "chainy-core": "*"
+    "chainy-core": "1"
   },
   "devDependencies": {
     "chainy-plugin-set": "*",
-    "chainy-core": "*",
+    "chainy-core": "1",
     "joe": "~1.4.0",
     "joe-reporter-console": "~1.2.1",
     "chai": "~1.9.1",
