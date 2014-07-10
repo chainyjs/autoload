@@ -1,5 +1,8 @@
 # History
 
+## v1.0.1 July 11, 2014
+- Fixed error when user doesn't have `package.json`
+
 ## v1.0.0 June 23, 2014
 - Initial official release
 
